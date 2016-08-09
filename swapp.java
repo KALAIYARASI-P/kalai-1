@@ -3,7 +3,8 @@ class swapp
 {
 public static void main(String[] srgs)
 {
- String s="kalai";
+ Scanner st=new Scanner(System.in);
+ String s=st.next();
  String h="";
  int j=0;
  char a[]=s.toCharArray();
