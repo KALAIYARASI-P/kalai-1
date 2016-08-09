@@ -15,8 +15,6 @@ if(st.equalsIgnoreCase(d[i])
 }
 if(st.equalsIgnoreCase("sunday"))
   System.out.println("false");
-else
-System.out.println("0");
 }
 }
 else
