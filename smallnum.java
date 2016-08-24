@@ -4,10 +4,10 @@ class smallnum
 public static void main(String[] args)
 {
 Scanner s=new Scanner(System.in);
-String n=s.next();
+String l=s.next();
 int k=s.nextInt();
 int a[]=new int[n.length()];
-int n=Integer.parseInt(n);
+int n=Integer.parseInt(l);
 int i=0;
 while(n>0)
 {
