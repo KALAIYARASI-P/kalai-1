@@ -16,7 +16,7 @@ a[i++]=c;
 n=n/10;
 }
 Arrays.sort(a);
-for(int j=0;j<l.length()-k;i++)
+for(int j=0;j<l.length()-k;j++)
 System.out.print(a[j]);
 }
 }
