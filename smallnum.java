@@ -6,7 +6,7 @@ public static void main(String[] args)
 Scanner s=new Scanner(System.in);
 String l=s.next();
 int k=s.nextInt();
-int a[]=new int[n.length()];
+int a[]=new int[l.length()];
 int n=Integer.parseInt(l);
 int i=0;
 while(n>0)
@@ -16,7 +16,7 @@ a[i++]=c;
 n=n/10;
 }
 Arrays.sort(a);
-for(int j=0;j<k;i++)
+for(int j=0;j<l.length()-k;i++)
 System.out.print(a[j]);
 }
 }
