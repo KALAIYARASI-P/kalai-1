@@ -12,11 +12,12 @@ a[i]=s.nextInt();
 }
 for(int i=0;i<n;i++)
 {b[i]=0;
-while(a[i]>0)
+int k=a[i]
+while(k>0)
 {
-int c=a[i]%2;
+int c=k%2;
 b[i]+=c;
-a[i]=a[i]/2;
+k=k/2;
 }
 }
 int t=0;
