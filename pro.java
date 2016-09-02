@@ -12,7 +12,7 @@ a[i]=s.nextInt();
 }
 for(int i=0;i<n;i++)
 {b[i]=0;
-int k=a[i]
+int k=a[i];
 while(k>0)
 {
 int c=k%2;
