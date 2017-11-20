@@ -1,0 +1,12 @@
+import java.util.*;
+public class reversenum{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the digit");
+int n=sc.nextInt();
+String ss=n+"";
+String rev=new StringBuffer(ss).reverse().toString();
+System.out.println(rev);
+}
+}
